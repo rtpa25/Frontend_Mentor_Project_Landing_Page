@@ -18,12 +18,29 @@ h1 {
     padding-bottom: 2em;
 }
 
+h2 {
+    padding: 0em 0em 1em 0em;
+    font-family: 'Fraunces', serif;
+}
+
+h5 {
+    display: inline;
+    font-family: 'Fraunces', serif;
+}
+
+.yellow-button:hover {
+    text-decoration: underline 1em solid yellow;
+}
+
+.orange-button:hover {
+    text-decoration: underline 1em solid orange;
+}
+
 .header {
     height: 100vh;
     background-image: url('images/desktop/image-header.jpg');
     background-size: cover;
     background-position: top center;
-    margin: 0 auto;
 }
 
 .links {
@@ -72,4 +89,90 @@ h1 {
     padding-top: 30px;
     padding-left: 25px;
     font-size: 1.4em;
+}
+
+.feature {
+    display: grid;
+    height: 90vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 70vh;
+}
+
+.content {
+    padding-right: 5em;
+    padding-left: 9em;
+    padding-top: 2em;
+    line-height: 1.5;
+}
+
+.tero {
+    padding-bottom: 1em;
+    line-height: 1.5;
+    word-spacing: 5px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgb(145, 145, 145);
+}
+
+.f1 {
+    height: 75vh;
+    width: 100%;
+}
+
+.b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 70vh;
+}
+
+.ci {
+    background-image: url("images/desktop/image-graphic-design.jpg");
+    background-color: #9ad8cb;
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70vh;
+    text-align: center;
+}
+
+.cii {
+    background-image: url("images/desktop/image-photography.jpg");
+    background-repeat: no-repeat;
+    background-color: #54c9f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70vh;
+    text-align: center;
+}
+
+.promo {
+    padding: 3em;
+    font-family: sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+    word-spacing: 5px;
+    color: hsl(167, 40%, 24%);
+}
+
+.promo1 {
+    padding: 3em;
+    font-family: sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+    word-spacing: 5px;
+    color: hsl(198, 62%, 26%);
 }
