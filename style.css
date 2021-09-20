@@ -23,9 +23,16 @@ h2 {
     font-family: 'Fraunces', serif;
 }
 
+h4 {
+    padding-bottom: 5em;
+    font-family: 'Fraunces', serif;
+    color: hsl(0, 0%, 50%);
+}
+
 h5 {
     display: inline;
     font-family: 'Fraunces', serif;
+    font-size: 1.02em;
 }
 
 .yellow-button:hover {
@@ -93,7 +100,7 @@ h5 {
 
 .feature {
     display: grid;
-    height: 90vh;
+    height: 220vh;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
@@ -175,4 +182,51 @@ h5 {
     line-height: 1.5;
     word-spacing: 5px;
     color: hsl(198, 62%, 26%);
+}
+
+.testimonials {
+    display: flex;
+    padding: 10em;
+    padding-top: 7em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rivews {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0em 2em;
+    text-align: center;
+}
+
+.person-image {
+    border-radius: 50%;
+    height: 5em;
+}
+
+.person-rivew {
+    padding: 2.6em 0em;
+    line-height: 1.5;
+    word-spacing: 2px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgb(145, 145, 145);
+    font-size: 0.98em;
+}
+
+.person-tag {
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgb(145, 145, 145);
+    font-size: 0.78em;
 }
