@@ -100,7 +100,6 @@
     
     .feature {
         display: grid;
-        height: 220vh;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
@@ -237,10 +236,6 @@
         align-items: center;
     }
     
-    .img {
-        height: auto;
-    }
-    
     .footer {
         display: flex;
         flex-direction: column;
@@ -286,6 +281,22 @@
         color: #fff;
     }
     
+    .img1 {
+        background-color: #41B5EE;
+    }
+    
+    .img2 {
+        background-color: orange;
+    }
+    
+    .img3 {
+        background-color: #41B5EE;
+    }
+    
+    .img4 {
+        background-color: orange;
+    }
+    
     @media only screen and (max-width: 415px) {
         .ham {
             padding-right: 1.5em;
@@ -316,31 +327,33 @@
             background-position: top center;
         }
         .feature {
-            grid-template-rows: repeat(6, 1fr);
+            grid-template-rows: repeat(6, 0.2fr);
             grid-template-columns: repeat(1, 1fr);
         }
         .ai {
             order: 1;
-            background-image: url(images/mobile/image-transform.jpg);
+            height: 70vh;
         }
         .f1 {
-            height: 50vh;
-            width: 100%;
+            max-width: 100%;
+            height: 30em;
         }
         .a {
             order: 2;
-            align-items: space-between;
-            padding: 0;
+            padding: 0 !important;
         }
         h2 {
             padding-bottom: 1rem;
+        }
+        h4 {
+            padding-bottom: 1rem;
+            padding-top: 3rem;
         }
         .tero {
             padding-bottom: 1rem;
         }
         .bi {
             order: 3;
-            background-image: url(images/mobile/image-stand-out.jpg);
         }
         .b {
             order: 4;
@@ -372,19 +385,16 @@
         .testimonials {
             padding: 0;
         }
-        .person-image {
-            margin-top: 3rem;
-        }
-        .person-tag {
-            margin-bottom: 1rem;
+        .person {
+            height: 50vh;
         }
         .footer-images {
             display: grid;
             grid-template-columns: repeat(2, 0.5fr);
             grid-template-rows: repeat(2, 0.5fr);
         }
-        .img {
-            height: 40vh;
-            width: 25%;
+        .ig {
+            height: auto;
+            width: 100%
         }
     }
